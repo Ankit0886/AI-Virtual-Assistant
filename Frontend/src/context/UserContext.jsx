@@ -3,7 +3,7 @@ import React, { createContext, useEffect, useState } from 'react'
 
 export const userDataContext = createContext()
 const UserContext = ({ children }) => {
-    const serverUrl = "http://localhost:5000"
+    const serverUrl = "https://ai-virtual-assistant-fg9q.onrender.com"
     const [userData, setuserData] = useState(null)
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const [frontendImage, setFrontendImage] = useState(null)
