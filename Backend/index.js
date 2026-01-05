@@ -19,7 +19,7 @@ app.use(cookieParser())
 
 // Enable CORS
 app.use(cors({
-    origin: "http://localhost:5173", // Frontend URL
+    origin: "https://ai-virtual-assistant-frontend-8vz1.onrender.com", // Frontend URL
     credentials: true
 }))
 
